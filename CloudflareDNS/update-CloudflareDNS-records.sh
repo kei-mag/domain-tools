@@ -14,7 +14,7 @@ API_TOKEN="your_api_token"
 # List of DNS records to update
 # Format: ("Type Name Content Comment")
 # <myip> will be replaced with the current IP address (IPv4 or IPv6)
-# <now> will be replaced with the current date and time
+# <now> will be replaced with the current date and time (2000/01/01 00:00:00)
 DNS_RECORDS=(
     "A example.com <myip> This is an example A record (last update: <now>)"
     "AAAA example.com <myip> This is an example AAAA record (last update: <now>)"
